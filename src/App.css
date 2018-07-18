@@ -1,0 +1,128 @@
+
+@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch');
+
+html{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  font-family: 'Cabin Sketch', cursive;
+  padding: 0;
+  margin: 0;
+}
+.wrapper{
+  height: 100vh;
+  display:grid;
+  grid-template-columns:50px auto 50px;
+  grid-template-rows:50px auto 50px; 
+  grid-gap: 2px;
+  /*background-color: yellow*/
+}
+
+.rowingImg {
+  background-image: url(/static/media/rowing.615380a6.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 0px 0px 50px 50px white inset;
+}
+
+/*.test {
+  background-color: blue;
+}*/
+
+.aboutNav{
+  display: grid;
+  grid-template-rows: repeat(5, 40px);
+  align-self: center;
+  text-align: center;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  font-size: 40px;
+}
+
+.projectsNav{
+  align-self: center;
+  text-align: center;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  font-size: 40px;
+}
+
+.codePenNav{
+  align-self: center;
+  text-align: center;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  font-size: 40px;
+}
+
+.contactNav{
+  display: grid;
+  grid-template-rows: repeat(7, 40px);
+  text-align: center;
+  align-self: center;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  font-size: 40px;
+}
+
+section{
+  display: grid;
+  grid-template-columns: 1fr;
+  /*background-color: red;*/
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.rotate270{
+  transform: rotate(270deg);
+}
+
+.rotate90{
+  transform: rotate(90deg);
+}
+
+div .codePenNav:hover{
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+div .projectsNav:hover{
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+}
+
+div .aboutNav:hover{
+  align-self: stretch;
+  grid-template-rows: repeat(5, 1fr);
+}
+
+div .aboutNav:hover .rotate270{
+  align-self: center;
+}
+
+div .contactNav:hover{
+  align-self: stretch;
+  grid-template-rows: repeat(7, 1fr);
+}
+
+div .contactNav:hover .rotate90{
+  align-self: center;
+}
+
+.tester {
+  display: inline-block;
+  margin-left: 20px;
+}
