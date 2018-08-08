@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import logo from './logo.svg';
 import './App.css';
-import rowingPic from "./photos/rowing.jpg";
+import 'typeface-roboto'
+import Avatar from './photos/avatar.jpg'
 
 class App extends Component {
   render() {
@@ -43,7 +44,11 @@ class App extends Component {
     <div class="rotate90">t</div>
   </div>
   <section>
-    <div className="rowingImg"></div>
+    <div>
+      <div className="avatar"></div>
+      <h1 className="title">Cameron Elliott</h1>
+      <p className="subtitle">Full Stack Web Developer</p>
+    </div>
   </section>
 </div>
     );
