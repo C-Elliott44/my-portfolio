@@ -136,4 +136,6 @@ div .contactNav:hover .rotate90{
   background-image: url(/static/media/avatar.c49cc31b.jpg);
   background-size: cover;
   margin: auto;
+  border-radius: 10%;
+  box-shadow: 3px 3px 13px 1px;
 }
