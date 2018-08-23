@@ -1,0 +1,43 @@
+.cardImg{
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+}
+
+.card{
+    justify-self: center;
+    display: inline-block;
+}
+
+.ProjectContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.NavHome{
+
+}
+
+.title{
+    text-align: center;
+    font-weight: 200;
+    font-size: 100px;
+    margin: 0;
+}
+
+@media(max-width: 790px) {
+    .ProjectContainer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+    }
+}
+
+@media(max-width: 520px) {
+    .ProjectContainer {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+    }
+}

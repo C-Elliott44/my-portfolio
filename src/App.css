@@ -10,6 +10,7 @@ body{
   font-weight: 100;
   padding: 0;
   margin: 0;
+  text-decoration: none;
 }
 .wrapper{
   height: 100vh;
@@ -30,6 +31,8 @@ body{
   grid-row-start: 2;
   grid-row-end: 3;
   font-size: 20px;
+  text-decoration: none;
+  color: black;
 }
 
 .projectsNav{
@@ -40,9 +43,12 @@ body{
   grid-column-start: 2;
   grid-column-end: 3;
   font-size: 20px;
+  text-decoration: none;
+  color: black;
 }
 
 .codePenNav{
+  transition:all 1.5s ease;
   align-self: center;
   text-align: center;
   grid-column-start: 2;
@@ -50,6 +56,9 @@ body{
   grid-row-start: 1;
   grid-row-end: 2;
   font-size: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
 }
 
 .contactNav{
@@ -62,17 +71,20 @@ body{
   grid-row-start: 2;
   grid-row-end: 3;
   font-size: 20px;
+  text-decoration: none;
+  color: black;
 }
 
-section{
+section {
   display: grid;
   grid-template-columns: 1fr;
-  /*background-color: red;*/
+  /* background-color: red; */
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 2;
   grid-row-end: 3;
-  align-self: center;
+  align-content: center;
+  border: 4px groove lightgray;
 }
 
 .rotate270{
@@ -133,7 +145,7 @@ div .contactNav:hover .rotate90{
 .avatar {
   width: 150px;
   height: 150px;
-  background-image: url(/static/media/avatar.c49cc31b.jpg);
+  background-image: url(./photos/avatar.jpg);
   background-size: cover;
   margin: auto;
   border-radius: 10%;
