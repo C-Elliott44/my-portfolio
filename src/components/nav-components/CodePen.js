@@ -5,7 +5,7 @@ class CodePenNav extends Component{
 
     render() {
             return (
-                <NavLink to={"/codepen"} className="test codePenNav">
+                <div onClick={()=> window.open("https://codepen.io/c-elliott44/", "_blank")} className="test codePenNav">
                     <div className="tester">C</div>
                     <div className="tester">o</div>
                     <div className="tester">d</div>
@@ -13,7 +13,7 @@ class CodePenNav extends Component{
                     <div className="tester">p</div>
                     <div className="tester">e</div>
                     <div className="tester">n</div>
-                </NavLink>
+                </div>
             );
     }
 }

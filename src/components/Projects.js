@@ -37,12 +37,14 @@ class Projects extends React.Component{
   
     render() {
         return (
-            <div>
+            <div class="wrapper">
+              <section>
                 <h1 className="title">Projects</h1>
                 <NavLink className="NavHome" to="/">Home</NavLink>
                 <ProjectContainer 
                   projects={this.state}
                 />
+              </section>
             </div>
         );
     }

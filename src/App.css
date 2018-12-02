@@ -151,3 +151,9 @@ div .contactNav:hover .rotate90{
   border-radius: 10%;
   box-shadow: 3px 3px 13px 1px;
 }
+
+.miniContact{
+  margin: auto;
+  display: table;
+  margin-top: 20px;
+}

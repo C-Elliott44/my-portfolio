@@ -1,0 +1,19 @@
+.aboutImg{
+    height: 150px;
+    border-radius: 10%;
+    -webkit-box-shadow: 3px 3px 13px 1px;
+    box-shadow: 3px 3px 13px 1px;
+}
+
+.aboutSection{
+    padding: 45px;
+    display: grid;
+    grid-template-columns: 1fr;
+    /* background-color: red; */
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    align-content: center;
+    border: 4px groove lightgray;
+}

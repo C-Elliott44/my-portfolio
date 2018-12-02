@@ -3,9 +3,11 @@ import { NavLink } from "react-router-dom";
 
 const CodePen = () => {
     return (
-        <div>
-            <p>View Page</p>
-            <NavLink to="/">Home</NavLink>
+        <div class="wrapper">
+            <section>
+                <p>View Page</p>
+                <NavLink to="/">Home</NavLink>
+            </section>
         </div>
     );
 }

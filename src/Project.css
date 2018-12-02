@@ -1,7 +1,9 @@
 .cardImg{
-    width: 250px;
-    height: 250px;
-    border: 2px solid black;
+    width: 150px;
+    height: 150px;
+    border-radius: 10%;
+    -webkit-box-shadow: 3px 3px 13px 1px;
+    box-shadow: 3px 3px 13px 1px;
 }
 
 .card{
@@ -13,10 +15,6 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
-}
-
-.NavHome{
-
 }
 
 .title{
